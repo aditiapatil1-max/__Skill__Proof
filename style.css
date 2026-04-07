@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f5f7ff;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background: white;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(to right, #6a5cff, #8f7bff);
+  color: white;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  background: white;
+  color: #6a5cff;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+button.secondary {
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+}
+
+.features {
+  padding: 50px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 150px;
+}
+
+.how {
+  padding: 50px;
+  text-align: center;
+}
+
+.columns {
+  display: flex;
+  justify-content: space-around;
+}
+
+.recruiters {
+  padding: 50px;
+  text-align: center;
+  background: #eef1ff;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #ddd;
+}
